@@ -317,7 +317,17 @@ button.prev:hover, button.next:hover {
    text-decoration: underline;
    font-style: italic;
 }
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  display: flex;
+}
 
+.modal.show {
+  opacity: 1;
+  visibility: visible;
+}
 
 /* ===== Contact Form Styling ===== */
 .contact-section {
