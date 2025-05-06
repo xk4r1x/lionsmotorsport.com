@@ -8,13 +8,13 @@ const teamLeads = [
    { img: "assets/images/Adam.jpeg", name: "Adam", role: "Secretary", desc: "Handles documentation, meeting notes, and team communication." },
    { img: "assets/images/Collin.jpeg", name: "Collin", role: "Treasurer", desc: "Manages team finances, budgeting, and fundraising efforts." },
    { img: "assets/images/Hayk.jpeg", name: "Hayk", role: "Marketing Lead", desc: "Promotes the team, manages social media, and builds sponsor relations." },
-   { img: "assets/images/Anton.jpeg", name: "Anton", role: "Suspension Lead", desc: "Oversees the design and optimizatiin of the suspension system for maximum performance." },
-   { img: "assets/images/Harris.jpeg", name: "Harris", role: "Engine Drivetrain Lead", desc: "Oversees engine and drivetrain development for reliability and power." },
+   { img: "assets/images/Anton.jpeg", name: "Anton", role: "Suspension Lead", desc: "Oversees the design and optimization of the suspension system for maximum performance." },
+   { img: "assets/images/Harris.jpeg", name: "Harrison", role: "Engine Drivetrain Lead", desc: "Oversees engine and drivetrain development for reliability and power." },
    { img: "assets/images/Sophie.jpeg", name: "Sophie", role: "Driver Ergonomics Lead", desc: "Focuses on driver comfort, safety, and optimal control layout." },
    { img: "assets/images/Lucas.jpeg", name: "Lukas", role: "Fabrication Lead", desc: "Supervises manufacturing and ensures quality in car assembly." },
-   { img: "assets/images/Makari.jpeg", name: "Makari", role: "Electronics Co-Lead", desc: "Oversees sensors, software and embedded system development." },
+   { img: "assets/images/Makari.jpeg", name: "Makari", role: "Electronics Co-Lead", desc: "Oversees sensors, software, and embedded system development." },
    { img: "assets/images/Danny.jpeg", name: "Daniel", role: "Electronics Co-Lead", desc: "Develops and integrates electrical systems and wiring harnesses for vehicle performance." },
-   { img: "assets/images/Aydan.jpeg", name: "Aydan", role: "Aerodynamics Lead", desc: "In charge of the design of the aerodynamics package to enhance vehicle efficiency and speed." }
+   { img: "assets/images/Aydan.jpeg", name: "Ayden", role: "Aerodynamics Lead", desc: "In charge of the design of the aerodynamics package to enhance vehicle efficiency and speed." }
 ];
 
 
