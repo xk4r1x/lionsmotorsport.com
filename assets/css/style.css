@@ -264,18 +264,25 @@ button.prev:hover, button.next:hover {
 
 /* ===== Join Team Modal Popup ===== */
 .modal {
-   display: none;
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-color: rgba(0, 0, 0, 0.7);
-   justify-content: center;
-   align-items: center;
-   z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  display: flex; /* Needed for your flex layout */
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
 }
 
+.modal.show {
+  opacity: 1;
+  visibility: visible;
+}
 .modal-content {
    background: #000;
    color: #fff;
@@ -316,17 +323,6 @@ button.prev:hover, button.next:hover {
    color: white;
    text-decoration: underline;
    font-style: italic;
-}
-.modal {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-  display: flex;
-}
-
-.modal.show {
-  opacity: 1;
-  visibility: visible;
 }
 
 /* ===== Contact Form Styling ===== */
