@@ -16,6 +16,12 @@ This document is a complete guide for both developers and non-developers who wan
 ## 📦 What’s in This Repository?
 
 - `index.html` – the homepage
+- `about.html` – the about page
+- `newsletter.html` – sign up for newsletters!
+- `updates.html` – periodic updates on our journey
+- `team.html` – meet the team!
+- `sponsors.html` – check out our sponsors
+- `contact.html` – contact us!
 - `styles.css` – the design and visual styling
 - `script.js` – optional interactive behavior (e.g. buttons or sliders)
 - `images/` – all images used on the website
