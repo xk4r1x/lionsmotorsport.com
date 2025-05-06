@@ -64,19 +64,23 @@ document.addEventListener("DOMContentLoaded", function () {
       }
    }
 
-   // Attach close button logic
+     // Attach close button logic
    const closeBtn = document.querySelector(".close-btn");
    if (closeBtn) {
       closeBtn.addEventListener("click", closeModal);
    }
+
+   // Make modal controls accessible to inline HTML
+   window.closeModal = closeModal;
+   window.showModal = showModal;
 
    // Show modal after 30 seconds if not already shown
    setTimeout(() => {
       if (!sessionStorage.getItem("modalShown")) {
          showModal();
       }
-   }, 30000); // 30,000ms = 30 seconds
-});
+   }, 30000);
+
 
 
 
